@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+const program = require('commander');
+
+program
+	.usage('[options]')
+	.option('-r, --root-directory [value]', 'Root directory to execute npm install. Default to process.cwd()')
+	.parse(process.argv)
+
+
+const nia = require('./../lib/npm-inst-all');
+
+
+nia.run(program);
