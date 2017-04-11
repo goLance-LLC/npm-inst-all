@@ -23,7 +23,7 @@
   },
   "preferGlobal": true,
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Golance-LLC/npm-inst-all/issues"
   },
@@ -39,5 +39,6 @@
   "files": [
     "bin",
     "lib"
-  ]
+  ],
+  "readme": "README.md"
 }
