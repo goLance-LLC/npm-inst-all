@@ -3,10 +3,11 @@
 const program = require('commander');
 
 program
-	.usage('[options]')
-	.option('-r, --root-directory [value]', 'Root directory to execute npm install. Default to process.cwd()')
+	.usage('[options] <cwd ...>')
+	// .option('-r, --root-directory [value]', 'Root directory to execute npm install. Default to process.cwd()')
 	.parse(process.argv)
 
+program.cwd = program.args[0];
 
 const nia = require('./../lib/npm-inst-all');
 
