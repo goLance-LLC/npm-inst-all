@@ -1,6 +1,6 @@
 {
   "name": "npm-inst-all",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "npm install all nested package.json recursively or for given pathes",
   "main": "lib/npm-inst-all.js",
   "scripts": {

@@ -1,6 +1,6 @@
 # npm-inst-all
 
-The package is used to easily install nested NPM depencies in your project.
+The package is used to easily install nested NPM dependencies in your project.
 
 
 ### Installation
@@ -23,10 +23,10 @@ Given the next project structure:
    package.json  #base project dependecies
    ```
 And assuming that you are in the project/ directory, 
-Install all depencies (base, service1 and service2) with one command: ```npm-inst-all .```
+Install all dependencies (base, service1 and service2) with one command: ```npm-inst-all .```
 
 
-Note: it is possible to specify the base directory. To install depencies of ```service1``` just type 
+Note: it is possible to specify the base directory. To install dependencies of ```service1``` just type 
 
 ```npm-inst-all ./service1/``` 
 
